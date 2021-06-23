@@ -8,10 +8,16 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="Click" />
+        android:text="加载图片" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="清除缓存" />
 
     <ImageView
         android:id="@+id/iv_image"
